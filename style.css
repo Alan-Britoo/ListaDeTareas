@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+.titulo {
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 2%;
+}
+.navBar {
+    text-align: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding-bottom: 15px;
+    width: 38.2%;
+    /* margin-left: 31%; */
+    margin: 0px auto;
+    border-radius: 2px;
+    padding-bottom: 0;
+    justify-content: space-evenly;
+}
+.active {
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    display: inline-block;
+    padding: 0 28px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+.select {
+    border-bottom: 3px solid blue;
+}
+button {
+    display: none;
+    /* Inicialmente, el botón está oculto  */
+    background: none;
+}
+.sectionNavbar {
+    width: 40%;
+    margin-left: 31%;
+}
+#Agregar {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#Agregar input {
+    padding-left: 20px;
+    border: solid 2px rgb(189, 189, 189);
+    border-radius: 10px;
+    width: 72%;
+    height: 40px;
+    margin-right: 20px;
+}
+#Agregar input:focus {
+    outline: none;
+}
+#Agregar button {
+    display: block;
+    background: rgb(85, 85, 255);
+    border-radius: 10px;
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+    left: 85%;
+    color: #ffff;
+}
+#list {
+    margin-top: 15px;
+    position: absolute;
+    width: 38.2%;
+}
+#listActive{
+    margin-top: 15px;
+    position: absolute;
+    width: 38.2%;
+}
+input[type="checkbox"]{
+    accent-color: rgb(38, 0, 255);
+    border-radius: 80px;
+}
+.addTask{
+    width: 38.2%;
+    margin: 0px auto;
+}
+#Completed button{
+    display: block;
+    background: rgb(243, 45, 45);
+    color: rgb(196, 202, 202);
+}
+.subra{
+    text-decoration: line-through;
+}
+.borrartodo{
+    margin-left: 75%;
+    border: 0;
+    padding: 8px 25px;
+    font-size: 13px;
+    border-radius: 6px;
+    /* line-height: 15px;  */
+    color: rgb(230, 226, 221);
+}  
+button #trashh{
+    color: rgb(214, 221, 221);
+    padding-right: 6px;
+}
+#trash{
+    margin-left: 400px;
+    color: rgb(196, 202, 202);
+    
+}
+@media screen and (max-width: 1194px) {
+    
+}
+/* #aaa{
+    background: rebeccapurple;
+} */
+
+
+
+/* .navBar .optioNa{
+    justify-content: space-between;
+    border-bottom: solid red;
+}
+.optioNa{
+    list-style: none;
+    
+
+}
+.optioNa li{
+    display: inline-block;
+    padding: 0 90px;
+    background: aqua;
+}
+ */
